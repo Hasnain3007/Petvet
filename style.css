@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box !important;
+}
+
+/* header start from here  */
+
+header {
+    height: 100vh;
+    background-image: url(./img/bg_1.jpg);
+    background-size: cover;
+}
+
+.chotanav p {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.chotanav a {
+    text-decoration: none;
+    color: black;
+}
+
+.chotanav a:hover {
+    color: gray;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.iconbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.iconbar a:hover {
+    color: white;
+    transition: .4s ease;
+
+}
+
+.icon:hover {
+    background-color: rgb(253, 76, 130);
+    color: white;
+    transition: .4s ease;
+
+}
+
+/* navbar start from here  */
+
+.navbar {
+    height: 70px;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.button {
+    background-color: rgb(253, 76, 130) !important;
+    border-radius: 0px !important;
+    height: 50px;
+}
+
+/* header article start */
+
+.article h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.article p {
+    color: rgb(155, 155, 155);
+    font-size: 17px;
+}
+
+.mainbutton {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(253, 76, 130) !important;
+    border: none !important;
+}
+
+.mainbutton:hover {
+    color: rgb(253, 76, 130) !important;
+    background: none !important;
+    border: 1px solid rgb(253, 76, 130) !important;
+}
+
+.mainbutton1 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(145, 194, 53) !important;
+    border: none !important;
+
+}
+
+.mainbutton1:hover {
+    color: rgb(145, 194, 53) !important;
+    background: none !important;
+    border: 1px solid rgb(145, 194, 53) !important;
+}
+
+/* 1st section start  */
+
+.boxrow {
+    position: relative;
+    bottom: 60px;
+
+}
+
+.box {
+    background-color: white;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+}
+
+.box:hover {
+    background-color: rgb(253, 76, 130) !important;
+    color: white;
+    transition: .4s ease;
+
+}
+
+.boximgmain {
+    align-items: center;
+}
+
+.boximg {
+    width: 100%;
+    height: 90px;
+    border-radius: 100%;
+    background-color: rgb(221, 221, 221);
+}
+
+.boxdetails h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 2nd section start  */
+
+.ndsection p {
+    font-weight: 700;
+    color: rgb(253, 76, 130);
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+form textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(221, 221, 221);
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+form .drop {
+    width: 100% !important;
+    height: 50px !important;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: white;
+    border-radius: 10px;
+}
+
+form #button {
+    width: 100% !important;
+    height: 50px !important;
+    border: 1px solid rgb(145, 194, 53);
+    background-color: rgb(145, 194, 53);
+    color: white;
+    padding: 0;
+    border-radius: 10px;
+}
+
+/* 3rd section start  */
+
+.sec3 {
+    height: 100vh;
+}
+
+.rdsection>p {
+    font-weight: 700;
+    color: rgb(253, 76, 130);
+    text-align: center;
+}
+
+.rdsection h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card {
+    position: relative;
+    border: none !important;
+}
+
+.khali {
+    width: 100%;
+    height: 100px;
+}
+
+.cardin img {
+    width: 200px;
+    /* height: 100%; */
+    border-radius: 100%;
+    border: 10px solid rgb(241, 242, 250);
+    position: relative;
+    top: -100px;
+    /* margin: auto; */
+    left: 40px;
+}
+
+.cardin h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -80px;
+}
+
+.cardin p {
+    font-weight: 700;
+    color: rgb(253, 76, 130);
+    text-align: center;
+}
+
+.iconnd {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgb(253, 76, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.cardin:hover {
+    background-color: rgb(145, 194, 53);
+    transition: .4s ease;
+
+    h3 {
+        transition: .4s ease;
+        color: white;
+    }
+
+    p {
+        transition: .4s ease;
+        color: white;
+    }
+
+    img {
+        border: 10px solid white;
+        transition: .4s ease;
+    }
+
+    .iconnd {
+        transition: .4s ease;
+        color: rgb(145, 194, 53);
+        background-color: white;
+        font-size: 20px;
+    }
+
+}
+
+/* section4 start */
+
+.attach {
+    height: 100vh;
+    background-image: url(./img/bg_3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.attach1 {
+    height: 100vh;
+    background-color: rgba(253, 76, 130, 0.8);
+    background-size: cover;
+    color: white;
+
+}
+
+.attach1 h3 {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.attach1 h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.maindabba {
+    width: 100%;
+}
+
+.dabba {
+    width: 350px;
+    opacity: 1 !important;
+    background-color: white;
+}
+
+.dabba img {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.dabba p {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.dabba h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.dabba h6 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(253, 76, 130);
+}
+
+/* footer start  */
+
+.footermain {
+    background-color: rgb(224, 224, 224);
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: underline 3px solid rgb(253, 76, 130);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer p:hover {
+    transition: .3s ease;
+    color: rgb(253, 76, 130);
+    cursor: pointer;
+}
+
+#pink {
+    color: rgb(253, 76, 130);
+}
+
+#pink a {
+    color: rgb(253, 76, 130);
+    text-decoration: none;
+}
+
+.foo {
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgb(253, 76, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.last{
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.lasttext{
+    
+}
